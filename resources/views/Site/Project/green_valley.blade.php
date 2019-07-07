@@ -43,7 +43,8 @@
                                     <li data-menuanchor=mainPage><a href="{{ route('index') }}"> <span data-hover=home>Home</span> </a></li>
                                     <li data-menuanchor=aboutPage><a href="{{ route('index') }}#aboutPage"> <span data-hover=About us>About us</span> </a></li>
                                     <li data-menuanchor=servicepage><a href="{{ route('index') }}#servicepage"> <span data-hover=Projects>Projects</span> </a></li>
-                                    <li data-menuanchor=contactpage><a href="{{ route('index') }}#contactpage"> <span data-hover=Contact Us>Contact Us</span> </a></li>
+                                    <li data-menuanchor=careerpage><a href="{{ route('index') }}#careerpage"> <span data-hover="Development_Partners">Development Partners</span></a></li>
+                                    <li data-menuanchor=contactpage><a href="{{ route('index') }}#contactpage"> <span data-hover="Contact Us">Contact Us</span> </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -54,8 +55,8 @@
         <section class="body-wrap clearfix">
             <div class=container>
                 <div class=row>
-                    <h4 style="margin-bottom: 20px;">Green Valley</h4>
-                    <h5>Re-creating Singapore Experience</h5>
+                    <h4 style="margin-bottom: 20px;">Green Ville</h4>
+                    <h5>A Paradigm Shift In Urban Development</h5>
                     <p class=opnsans>
                         Housing refers to the development of living facilities for people. The UN housing policy guideline for developing
                         countries states that the concept of housing is more than merely a physical shell. Housing encompasses all auxiliary
@@ -74,7 +75,7 @@
                                     The concept of housing is not limited to a mere house, it' encompasses a physical and social environment,
                                     and includes proper and adequate provision of infra-structural elements like
 
-                                    <ul class=opnsans>
+                                    <ul class=opnsans style="margin-left: 30px;">
                                         <li>Roads</li>
                                         <li>Water</li>
                                         <li>Sewerage</li>

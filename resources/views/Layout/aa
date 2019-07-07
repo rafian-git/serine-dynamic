@@ -87,10 +87,10 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <h5 style="margin-bottom: 20px;">OUR CORE VALUE</h5>
-                                        <p class=opnsans style="font-size: 17px;">
-                                            Sustainable business model in terms of environmental compliance and profitability through
-                                            knowledge management and innovation to improve quality of life.
+                                        <h5 style="margin-bottom: 20px;">Our Vision</h5>
+                                        <p class=opnsans style="font-size: 20px;">
+                                            We are bunch of young mega minds who have decent understanding about business and the pilot of this
+                                            company claims himself to be an expert in housing projects with a handful experience of more than a decade.
                                         </p>
                                     </div>
                                 </a>
@@ -100,14 +100,14 @@
                                 <a class=fig-h1>
                                     <div>
                                         <div class=marketing>
-                                            <div class=move><img src=public/assets/images/service/s1.png alt=image style="margin-bottom: 20px;"></div>
+                                            <div class=move><img src=public/assets/images/service/s2.png alt=image style="margin-bottom: 20px;"></div>
                                         </div>
                                     </div>
                                     <div>
-                                        <h5 style="margin-bottom: 20px;">Our Core Strength</h5>
-                                        <p class=opnsans style="font-size: 17px;">
-                                            New approach in real estate business with high end management expertise - incorporating Singapore’s MPH theory.
-                                            "Thorough understanding of the industry" - Innovative business ideas for market intervention and growth hacking
+                                        <h5 style="margin-bottom: 20px;">Our History</h5>
+                                        <p class=opnsans style="font-size: 20px;">
+                                            As of now; honestly we are not known to many but we aspire to become country’s top value brand through our innovative ideas,
+                                            inquisitive mindset and thrive to achieve excellence.
                                         </p>
                                     </div>
                                 </a>
@@ -117,13 +117,14 @@
                                 <a class=fig-h1>
                                     <div>
                                         <div class=design>
-                                            <div class=move><img src=public/assets/images/service/s2.png alt=image style="margin-bottom: 20px;"></div>
+                                            <div class=move><img src=public/assets/images/service/s1.png alt=image style="margin-bottom: 20px;"></div>
                                         </div>
                                     </div>
                                     <div>
-                                        <h5 style="margin-bottom: 20px;">Future Expansion Plan</h5>
-                                        <p class=opnsans style="font-size: 17px;">
-                                            Smart and Green Residential and Commercial Building, Education, IT.
+                                        <h5 style="margin-bottom: 20px;">Our Values</h5>
+                                        <p class=opnsans style="font-size: 20px;">
+                                            No actions of this company reflects typical money making approach rather we
+                                            think customer’s investment security more than anything and safe return on investment in the coming days.
                                         </p>
                                     </div>
                                 </a>
@@ -225,7 +226,7 @@
 
                     <div class=contact-fig>
 
-                        <div class="row" style="margin-top: 50px;">
+                        <div class="row">
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-md-6">
@@ -257,13 +258,7 @@
                             </div>
                             <hr>
                         </div>
-
-                        <div id=map-wrapper class=map-wrap>
-
-                        </div>
-
                     </div>
-
                 </div>
             </div>
         </section>

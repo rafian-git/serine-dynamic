@@ -9022,7 +9022,7 @@ h5, .opnsans {
 }
 
 .contact .map-wrap {
-    height: 369px
+    height: 0px
 }
 
 .contact .form-group {
@@ -10765,7 +10765,7 @@ footer .social a:nth-of-type(4) {
     .contact .map-wrap {
         height: 200px;
         overflow: visible;
-        margin-bottom: 500px;
+        margin-bottom: 00px;
     }
 
     .form-control {
