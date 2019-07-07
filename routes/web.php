@@ -3,4 +3,4 @@
 
 // ---------------- SiteController --------------- //
 Route::get('/', 'SiteController@index')->name('index');
-Route::get('/green-valley', 'SiteController@project_greenvalley')->name('greenValley');
+Route::get('/green-ville', 'SiteController@project_greenvalley')->name('greenValley');

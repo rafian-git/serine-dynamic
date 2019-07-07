@@ -6,7 +6,7 @@
     <meta charset=utf-8>
     <meta name=description>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>awesomeIdeas</title>
+    <title>Serine BD Properties</title>
     <link rel=stylesheet href=public/assets/styles/vendor.css>
     <link rel=stylesheet href=public/assets/styles/main.css>
 
@@ -28,34 +28,64 @@
 
 <div class=workDetails>
     <div class=wrapper-body>
-        <header class=servicepage style="padding-top: 0px;">
+
+
+        <div class=header>
             <div class=container>
                 <div class=row>
-                    <div class=logo-wrap data-menuanchor=mainPage><a href="{{ route('index') }}"> <img src=public/assets/images/logo_dark.png alt=image> </a></div>
-                    <nav class=navbar>
-                        <div class=nav-wrapper>
-                            <div class=navbar-header>
-                                <button type=button class=navbar-toggle><span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span></button>
-                            </div>
-                            <div class=overlay></div>
-                            <div class=nav-menu><a class=close-menu> <img src=public/assets/images/logo_dark.png alt=image> </a>
-                                <ul class="nav navbar-nav">
-                                    <li data-menuanchor=mainPage><a href="{{ route('index') }}"> <span data-hover=home>Home</span> </a></li>
-                                    <li data-menuanchor=aboutPage><a href="{{ route('index') }}#aboutPage"> <span data-hover=About us>About us</span> </a></li>
-                                    <li data-menuanchor=servicepage><a href="{{ route('index') }}#servicepage"> <span data-hover=Projects>Projects</span> </a></li>
-                                    <li data-menuanchor=careerpage><a href="{{ route('index') }}#careerpage"> <span data-hover="Development_Partners">Development Partners</span></a></li>
-                                    <li data-menuanchor=contactpage><a href="{{ route('index') }}#contactpage"> <span data-hover="Contact Us">Contact Us</span> </a></li>
-                                </ul>
-                            </div>
+                    <div class=logo-container data-menuanchor=mainPage><a href="{{ route('index') }}" class=main-logo> <img src=public/assets/images/logo_dark.png alt=image class=logo-mobile> <img src=public/assets/images/logo_dark.png alt=image class=light> <img src=public/assets/images/logo.png alt=image class=dark> </a></div>
+                    <div class=content>
+                        <div class="menu-container clearfix">
+                            <nav class=navbars><a class=button-nav> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span> </a>
+                                <div class=overlay></div>
+                                <div class=nav-menu><h6>serine</h6>
+                                    <p>INTEGRATE CITY IN NATURE</p>
+                                    <ul class=navbar-wrapper id=menu>
+                                        <li data-menuanchor=mainPage class=active><a href="{{ route('index') }}">Home</a></li>
+                                        <li data-menuanchor=aboutPage><a href="{{ route('index') }}#aboutPage">About Us</a></li>
+                                        <li data-menuanchor=servicepage><a href="{{ route('index') }}#servicepage">projects</a></li>
+                                        <li data-menuanchor=careerpage><a href="{{ route('index') }}#careerpage">Our Development Partners</a></li>
+                                        <li data-menuanchor=contactpage><a href="{{ route('index') }}#contactpage">Contact us</a></li>
+                                    </ul>
+                                    <a class=close-btn> <img src=public/assets/images/icons/cross.png alt=image> </a></div>
+                            </nav>
                         </div>
-                    </nav>
+                        {{--<div class=social><a href=#><i class="fa fa-google-plus"></i></a> <a href=#><i class="fa fa-facebook"></i></a> <a href=#><i class="fa fa-twitter"></i></a> <a href=#><i class="fa fa-behance"></i></a></div>--}}
+                    </div>
                 </div>
             </div>
-        </header>
+        </div>
+
+        {{--<header class=servicepage style="padding-top: 0px;">--}}
+            {{--<div class=container>--}}
+                {{--<div class=row>--}}
+                    {{--<div class=logo-wrap data-menuanchor=mainPage><a href="{{ route('index') }}"> <img src=public/assets/images/logo_dark.png alt=image> </a></div>--}}
+                    {{--<nav class=navbar>--}}
+                        {{--<div class=nav-wrapper>--}}
+                            {{--<div class=navbar-header>--}}
+                                {{--<button type=button class=navbar-toggle><span class=sr-only>Toggle navigation</span> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span></button>--}}
+                            {{--</div>--}}
+                            {{--<div class=overlay></div>--}}
+                            {{--<div class=nav-menu><a class=close-menu> <img src=public/assets/images/logo_dark.png alt=image> </a>--}}
+                                {{--<ul class="nav navbar-nav">--}}
+                                    {{--<li data-menuanchor=mainPage><a href="{{ route('index') }}"> <span data-hover=home>Home</span> </a></li>--}}
+                                    {{--<li data-menuanchor=aboutPage><a href="{{ route('index') }}#aboutPage"> <span data-hover=About us>About us</span> </a></li>--}}
+                                    {{--<li data-menuanchor=servicepage><a href="{{ route('index') }}#servicepage"> <span data-hover=Projects>Projects</span> </a></li>--}}
+                                    {{--<li data-menuanchor=careerpage><a href="{{ route('index') }}#careerpage"> <span data-hover="Development_Partners">Development Partners</span></a></li>--}}
+                                    {{--<li data-menuanchor=contactpage><a href="{{ route('index') }}#contactpage"> <span data-hover="Contact Us">Contact Us</span> </a></li>--}}
+                                {{--</ul>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</nav>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</header>--}}
+
+
         <section class="body-wrap clearfix">
             <div class=container>
                 <div class=row>
-                    <h4 style="margin-bottom: 20px;">Green Ville</h4>
+                    <h4 style="margin-bottom: 20px; margin-top: 30px;">Green Ville</h4>
                     <h5>A Paradigm Shift In Urban Development</h5>
                     <p class=opnsans>
                         Housing refers to the development of living facilities for people. The UN housing policy guideline for developing
@@ -94,7 +124,7 @@
                     <div class="ProductAccordion clearfix" style="padding-top: 0px;">
                         <div class=panel-group id=accordion>
                             <div class="panel panel-default">
-                                <div class=panel-heading><a data-toggle=collapse data-parent=#accordion href=#collapseOne><span>A green housing: 'Blue-Green City' concept</span></a></div>
+                                <div class=panel-heading style="padding-left: 10px;"><a data-toggle=collapse data-parent=#accordion href=#collapseOne><span> A green housing: 'Blue-Green City' concept</span></a></div>
                                 <div id=collapseOne class="panel-collapse collapse in">
                                     <div class=panel-body>
                                         <p style="margin-top: 0px; font-size: 15px; color: #525658">
@@ -112,7 +142,7 @@
                                 </div>
                             </div>
                             <div class="panel panel-default">
-                                <div class=panel-heading><a data-toggle=collapse data-parent=#accordion href=#collapseTwo><span>Provision for turn-key based duplex/multiplex area</span></a></div>
+                                <div class=panel-heading style="padding-left: 10px;"><a data-toggle=collapse data-parent=#accordion href=#collapseTwo><span>Provision for turn-key based duplex/multiplex area</span></a></div>
                                 <div id=collapseTwo class="panel-collapse collapse in">
                                     <div class=panel-body>
                                         <p style="margin-top: 0px; font-size: 15px; color: #525658">
@@ -171,14 +201,6 @@
                         </div>
                         <div class=product-container><a class=product-dtl>
                                 <div class=product-img><img src=public/assets/images/project/green_valley/s4.jpg style="border: 2px solid #dfe6e9;" height="200px;" width="100%" alt=image></div>
-                            </a>
-                        </div>
-                        <div class=product-container><a class=product-dtl>
-                                <div class=product-img><img src=public/assets/images/project/green_valley/s3.jpg style="border: 2px solid #dfe6e9;" height="200px;" width="100%" alt=image></div>
-                            </a>
-                        </div>
-                        <div class=product-container><a class=product-dtl>
-                                <div class=product-img><img src=public/assets/images/project/green_valley/s2.jpg style="border: 2px solid #dfe6e9;" height="200px;" width="100%" alt=image></div>
                             </a>
                         </div>
                     </div>

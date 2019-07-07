@@ -7,7 +7,7 @@
     <meta charset=utf-8>
     <meta name=description>
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>awesomeIdeas</title>
+    <title>Serine BD Properties</title>
     <link rel=stylesheet href=public/assets/styles/vendor.css>
     <link rel=stylesheet href=public/assets/styles/main.css>
     <link rel=stylesheet href=public/assets/extra/owl_carousel/owl.carousel.min.css>
@@ -31,7 +31,7 @@
         <div class=header>
             <div class=container>
                 <div class=row>
-                    <div class=logo-container data-menuanchor=mainPage><a href=#mainPage class=main-logo> <img src=public/assets/images/logo_dark.png alt=image class=logo-mobile> <img src=public/assets/images/logo_dark.png alt=image class=light> <img src=public/assets/images/logo.png alt=image class=dark> </a></div>
+                    <div class=logo-container data-menuanchor=mainPage><a href="{{ route('index') }}" class=main-logo> <img src=public/assets/images/logo_dark.png alt=image class=logo-mobile> <img src=public/assets/images/logo_dark.png alt=image class=light> <img src=public/assets/images/logo.png alt=image class=dark> </a></div>
                     <div class=content>
                         <div class="menu-container clearfix">
                             <nav class=navbars><a class=button-nav> <span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span> </a>
@@ -39,7 +39,7 @@
                                 <div class=nav-menu><h6>serine</h6>
                                     <p>INTEGRATE CITY IN NATURE</p>
                                     <ul class=navbar-wrapper id=menu>
-                                        <li data-menuanchor=mainPage class=active><a href=#mainPage>Home</a></li>
+                                        <li data-menuanchor=mainPage class=active><a href="{{ route('index') }}">Home</a></li>
                                         <li data-menuanchor=aboutPage><a href=#aboutPage>About Us</a></li>
                                         <li data-menuanchor=servicepage><a href=#servicepage>projects</a></li>
                                         <li data-menuanchor=careerpage><a href=#careerpage>Our Development Partners</a></li>
@@ -82,7 +82,7 @@
                             <div class="col-md-4">
                                 <a class=fig-h1>
                                     <div>
-                                        <div class=branding>
+                                        <div class=branding style="margin-top: 10px;">
                                             <div class=move><img src=public/assets/images/service/s3.png alt=image style="margin-bottom: 20px;"></div>
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@
                             <div class="col-md-4">
                                 <a class=fig-h1>
                                     <div>
-                                        <div class=marketing>
+                                        <div class=marketing style="margin-top: 10px;">
                                             <div class=move><img src=public/assets/images/service/s1.png alt=image style="margin-bottom: 20px;"></div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@
                             <div class="col-md-4">
                                 <a class=fig-h1>
                                     <div>
-                                        <div class=design>
+                                        <div class=design style="margin-top: 10px;">
                                             <div class=move><img src=public/assets/images/service/s2.png alt=image style="margin-bottom: 20px;"></div>
                                         </div>
                                     </div>
